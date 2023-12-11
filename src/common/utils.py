@@ -7,4 +7,4 @@ def printdir(dir):
   for filename in filenames:
     print(filename)  ## foo.txt
     print(os.path.join(dir, filename)) ## dir/foo.txt (relative to current dir)
-    pprint(os.path.abspath(os.path.join(dir, filename))) ## /home/nick/dir/foo.txt
+    print(os.path.abspath(os.path.join(dir, filename))) ## /home/nick/dir/foo.txt
